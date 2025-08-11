@@ -1,0 +1,130 @@
+{{ 'home-info-bar.css' | asset_url | stylesheet_tag }}
+
+<section class="home-info-bar color-{{ section.settings.color_scheme }} gradient">
+  <div class="home-info-bar-container">
+    <div class="home-info-bar-row">
+      
+      <!-- Quick Contact Section -->
+      <div class="home-info-bar-col-1">
+        <div class="home-info-bar-content">
+          <div class="home-info-bar-circle">
+            <i class="home-info-bar-circle-icon icon-phone"></i>
+          </div>
+          <div class="home-info-bar-text">
+                <h4>{{ section.settings.quick_contact_title }}</h4>
+                {{ section.settings.quick_contact_email }}
+                {{ section.settings.quick_contact_phone }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Customer Support Section -->
+      <div class="home-info-bar-col-2">
+        <div class="home-info-bar-content">
+          <div class="home-info-bar-circle">
+            <i class="home-info-bar-circle-icon icon-headset"></i>
+          </div>
+          <div class="home-info-bar-text">
+                <h4>{{ section.settings.customer_support_title }}</h4>
+                  {{ section.settings.customer_support_text }}
+                  {{ section.settings.request_assistance_text}}
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Banner Section -->
+      <div class="home-info-bar-col-3">
+        <div class="home-info-bar-content">
+          <div class="home-info-bar-banner color-{{ section.settings.color_scheme_banner }}  gradient">
+            <h4>{{ section.settings.banner_title }}</h4>
+            <p>{{ section.settings.banner_text }}</p>
+            {{ section.settings.banner_button_text}}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Home Info Bar",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Background Color"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme_banner",
+      "default": "scheme-1",
+      "label": "Right Banner Scheme Color"
+    },
+    {
+      "type": "text",
+      "id": "quick_contact_title",
+      "label": "Quick Contact Title",
+      "default": "Quick Contact"
+    },
+    {
+      "type": "richtext",
+      "id": "quick_contact_email",
+      "label": "Quick Contact Email",
+      "default": "<p><a href='mailto:orders@unlockcommerce.co'>orders@unlockcommerce.co</a></p>"
+    },
+    {
+      "type": "richtext",
+      "id": "quick_contact_phone",
+      "label": "Quick Contact Phone",
+      "default": "<p><a href='tel:18007090002'>1-800-247-2167</a></p>"
+    },
+    {
+      "type": "text",
+      "id": "customer_support_title",
+      "label": "Customer Support Title",
+      "default": "Customer Support"
+    },
+    {
+      "type": "textarea",
+      "id": "customer_support_text",
+      "label": "Customer Support Text",
+      "default": "Problem or questions about your order?"
+    },
+    {
+      "type": "richtext",
+      "id": "request_assistance_text",
+      "label": "Request Assistance Link Text",
+      "default": "<p><a href='/contact-us'>Request assistance</a></p>"
+    },
+    {
+      "type": "text",
+      "id": "banner_title",
+      "label": "Banner Title",
+      "default": "Herschel Parts"
+    },
+    {
+      "type": "textarea",
+      "id": "banner_text",
+      "label": "Banner Description",
+      "default": "Offering competitive advantages and quality products."
+    },
+    {
+      "type": "richtext",
+      "id": "banner_button_text",
+      "label": "Banner Button Text",
+      "default": "<p><a href='/search'>Find your product</a></p>"
+    }
+  ],
+   "disabled_on": {
+    "groups": ["header", "footer", "aside"]
+  },
+  "presets": [
+    {
+      "name": "Home Info Bar",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

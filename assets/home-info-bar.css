@@ -1,0 +1,160 @@
+.home-info-bar {
+  padding: 40px 0;
+  min-height: 500px;
+  width: 100%;
+}
+
+.home-info-bar-container {
+  width: 100%;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.home-info-bar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.home-info-bar-col-1,
+.home-info-bar-col-2,
+.home-info-bar-col-3
+{
+  width: 100%;
+}
+
+.home-info-bar-content {
+  display: flex;
+  align-items: center;
+}
+
+.home-info-bar-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #b84b3c;
+}
+
+.home-info-bar-circle-icon {
+  background-position: center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-headset {
+  background-image: url('icon-headset.svg');
+}
+
+.icon-phone {
+  background-image: url('icon-phone.svg');
+}
+
+.home-info-bar-text {
+  padding-left: 20px;
+}
+
+.home-info-bar-text .request-assistance-link {
+  text-decoration: underline;
+}
+
+.home-info-bar-text h4{
+  margin: 0px 5px;
+}
+
+.home-info-bar-banner {
+  width: 100%;
+  min-height: 183px;
+  padding: 30px 40px 30px 40px;
+}
+
+.home-info-bar-text h4 {
+  margin: 0 0 15px 0;
+}
+
+.home-info-bar-text p {
+  margin: 0 0 5px 0;
+}
+
+.home-info-bar-text a,
+.home-info-bar-banner a{
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+.home-info-bar-text a:hover,
+.home-info-bar-banner a:hover{
+  text-decoration: none;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+  .home-info-bar-text {
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .home-info-bar-banner {
+    min-height: 160px;
+  }
+
+   .home-info-bar {
+    min-height: 427px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-info-bar {
+    min-height: 333px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .home-info-bar {
+    min-height: 335px;
+  }
+  
+  .home-info-bar-col-1,
+  .home-info-bar-col-2{
+    width: 49%;
+    position: relative;
+  }
+
+  .home-info-bar-col-3 {
+    width: 100%;
+    position: relative;
+  }
+
+  .home-info-bar-content {
+    margin-bottom: 20px; 
+  }
+}
+
+@media (min-width: 1200px) {
+
+   .home-info-bar {
+    min-height: 145px;
+  }
+  
+  .home-info-bar-col-1,
+  .home-info-bar-col-2,
+  .home-info-bar-col-3
+  {
+    width: 32%;
+    position: relative;
+  }
+
+  .home-info-bar-banner {
+    position: absolute;
+  }
+}
+

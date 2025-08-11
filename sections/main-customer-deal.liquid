@@ -1,0 +1,126 @@
+{{ 'section-customer-deal.css' | asset_url | stylesheet_tag }}
+
+<section {% if template.name == 'index' %}data-aos="fade-left" data-aos-duration="1000"{% endif %} class="customer-deals page-width-desktop" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px">
+  <div class="customer-deals-container">
+    <div class="customer-deals-row">
+      <div class="customer-deals-col-1">
+        <div
+          class="customer-deals-image"
+          style="background-image: url('{% if section.settings.image != blank %}{{ section.settings.image | image_url: height: 350 }}{% else %}{{ 'men_with_laptop.webp' | asset_url }}{% endif %}');"
+        >
+          <div class="customer-deals-banner">
+            <p>{{ section.settings.text-banner }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="customer-deals-col-2">
+        <div class="customer-deals-content" style="background-color: {{ section.settings.background_color }}">
+          <div>
+            <h2>
+              {{ section.settings.title }}
+            </h2>
+            <p>
+              {{ section.settings.description }}
+            </p>
+            <a href="{{ section.settings.url }}" class="button {{ section.settings.button_style }}"
+              >{{ section.settings.button_text }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Customer Deal",
+    "settings": [
+      {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 20,
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px"
+      },
+      {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 20,
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px"
+      },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Customer Deal Image"
+      },
+      {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Special pricing for our most loyal customer, the designers."
+      },
+      {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "We offer special financing options online and in our stores. Eligible customers will receive additional discounts on some of our most popular items."
+      },
+      {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#333333"
+      },
+      {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text", 
+      "default": "View Eligible Items"
+      },
+      {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button Style",
+      "options": [
+        {
+          "value": "button--primary",
+          "label": "Primary"
+        },
+        {
+          "value": "button--secondary",
+          "label": "Secondary"
+        }
+      ],
+      "default": "button--primary"
+      },
+      {
+      "type": "url",
+      "id": "url",
+      "label": "Button Url"
+      },
+      {
+      "type": "richtext",
+      "id": "text-banner",
+      "label": "Left Banner Text",
+      "default": "<h4>Want to be part of the program?</h4><p>Take advantage of faster checkouts and other great benefits.</p><p>Register Now</p>"
+      }
+    ],
+     "disabled_on": {
+      "groups": ["header", "footer", "aside"]
+    },
+    "presets": [
+    {
+      "name": "Customer Deal",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}

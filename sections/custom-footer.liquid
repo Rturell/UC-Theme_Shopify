@@ -1,0 +1,164 @@
+{{ 'custom-footer.css' | asset_url | stylesheet_tag }}
+
+<footer class="custom-footer color-{{ section.settings.color_scheme }}">
+  <div class="footer-container">
+    <div class="footer-columns">
+      
+      <!-- Columna 1: Logo, Texto y Redes Sociales -->
+      <div class="footer-col">
+        {% if section.settings.image %}
+          <img src="{{ section.settings.image | image_url }}" alt="Footer Image" class="footer-logo">
+        {% endif %}
+        {% if section.settings.footer_text != blank %}
+          <p class="footer-text">{{ section.settings.footer_text }}</p>
+        {% endif %}
+        <div class="footer-socials">
+          {% for block in section.blocks %}
+            {% if block.type == "social" %}
+              <a href="{{ block.settings.social_link }}" target="_blank">
+                {{ block.settings.social_icon | asset_url | inline_asset_content }}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- Columna 2, 3 y 4: Título + Links Personalizables -->
+      {% for block in section.blocks %}
+        {% if block.type == "menu" %}
+          <div class="footer-col">
+            {% if block.settings.menu_title != blank %}
+              <h4>{{ block.settings.menu_title }}</h4>
+            {% endif %}
+            <ul>
+              {% for link in block.settings.menu.links %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endfor %}
+      
+    </div>
+
+    <!-- Footer Bottom: Links a la Izquierda & Copyright a la Derecha -->
+    <div class="footer-bottom">
+      <div class="footer-links">
+        {% for block in section.blocks %}
+          {% if block.type == "bottom_links" %}
+            <a href="{{ block.settings.link_url }}">{{ block.settings.link_text }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="footer-copyright">
+        {{ section.settings.copyright_text }}
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Custom Footer",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Footer Color Scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Footer Logo"
+    },
+    {
+      "type": "textarea",
+      "id": "footer_text",
+      "label": "Footer Text",
+      "default": "Welcome to our store! Follow us on social media."
+    },
+    {
+      "type": "text",
+      "id": "copyright_text",
+      "label": "Copyright Text",
+      "default": "© 2024 Your Store. All rights reserved."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "social",
+      "name": "Social Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "social_link",
+          "label": "Social Media Link"
+        },
+        {
+          "type": "text",
+          "id": "social_icon",
+          "label": "Social Icon Filename",
+          "default": "icon-facebook.svg",
+          "info": "Enter the filename of the icon in the Assets folder (e.g., 'icon-instagram.svg')"
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "name": "Footer Menu",
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_title",
+          "label": "Menu Title",
+          "default": "Shop"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Select Menu"
+        }
+      ]
+    },
+    {
+      "type": "bottom_links",
+      "name": "Footer Bottom Link",
+      "settings": [
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Footer",
+      "blocks": [
+        {
+          "type": "menu"
+        },
+        {
+          "type": "menu"
+        },
+        {
+          "type": "menu"
+        },
+        {
+          "type": "bottom_links"
+        }
+      ]
+    }
+  ],
+   "enabled_on": {
+    "groups": ["footer"]
+  }
+}
+{% endschema %}

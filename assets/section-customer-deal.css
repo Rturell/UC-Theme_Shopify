@@ -1,0 +1,137 @@
+.customer-deals-container {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.customer-deals-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .customer-deals-row {
+    flex-direction: column;
+  }
+}
+
+.customer-deals-col-1 {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .customer-deals-col-1 {
+    width: 41.66%;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-deals-col-1 {
+    order: 2;
+  }
+}
+
+.customer-deals-col-2 {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .customer-deals-col-2 {
+    width: 58.33%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-deals-col-2 {
+    order: 1;
+  }
+}
+
+.customer-deals-image {
+  display: flex;
+  position: relative;
+  min-height: 350px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .customer-deals-image {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.customer-deals-image .customer-deals-banner {
+  max-width: 75%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.customer-deals-image .customer-deals-banner h4,
+.customer-deals-image .customer-deals-banner p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.customer-deals-image .customer-deals-banner a {
+  font-size: 14px;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.customer-deals-image .customer-deals-banner a:hover {
+  color: #ff3300;
+}
+
+.customer-deals-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+@media (max-width: 768px) {
+  .customer-deals-content {
+    padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+
+.customer-deals-content h2,
+.customer-deals-content p {
+  color: white;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .customer-deals-content h2 span,
+  .customer-deals-content p span {
+    display: block;
+  }
+}
+
+.customer-deals-content-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.customer-deals-content-button:hover {
+  background-color: #ff3300;
+  color: white;
+}
