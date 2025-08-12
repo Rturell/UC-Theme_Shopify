@@ -245,6 +245,22 @@
         "image_2_button_text": "See More",
         "button_style": "button--secondary"
       }
+    },
+    "ss_back_to_top_button_z7ymc6": {
+      "type": "ss-back-to-top-button",
+      "name": "SS - Back to top button",
+      "settings": {
+        "hide_on_mobile": false,
+        "show_when_precent_of_page": 30,
+        "pos": "right",
+        "bg_color": "#F4F2F2",
+        "border_color": "#CEC5C5",
+        "arrow_color": "#333333",
+        "button_size": 54,
+        "arrow_size": 30,
+        "horizontal_dst_to_edge": 20,
+        "vertical_dst_to_edge": 20
+      }
     }
   },
   "order": [
@@ -255,6 +271,7 @@
     "rich_text_XhcUHk",
     "main_customer_deal_3cbiWa",
     "infinite_marquee_6aULQf",
-    "main_homepage_banners_6d6ziz"
+    "main_homepage_banners_6d6ziz",
+    "ss_back_to_top_button_z7ymc6"
   ]
 }
