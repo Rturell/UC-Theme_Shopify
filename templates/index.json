@@ -1,1 +1,407 @@
-{"sections":{"slideshow_4z9p77":{"type":"slideshow","blocks":{"slide_fDVk4i":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/SliderChairC.webp","image_overlay_opacity":10,"heading":"Modern Wood Chair","heading_size":"h2","subheading":"Get inspired with our new collection.","button_label":"Shop Now","link":"shopify:\/\/collections\/all","button_style_secondary":false,"show_text_box":true,"box_align":"middle-left","text_alignment":"left","text_alignment_mobile":"left","color_scheme":"scheme-d1d07006-6af0-4cff-966a-880958df50d0"}},"slide_ifQTjt":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/SliderLightningC.jpg","image_overlay_opacity":0,"heading":"Light Pendants","heading_size":"h2","subheading":"From sleek, modern offerings to more versatile designs","button_label":"Shop Now","link":"shopify:\/\/collections\/all","button_style_secondary":false,"show_text_box":true,"box_align":"middle-left","text_alignment":"left","text_alignment_mobile":"left","color_scheme":"scheme-d1d07006-6af0-4cff-966a-880958df50d0"}}},"block_order":["slide_fDVk4i","slide_ifQTjt"],"custom_css":[".slideshow__controls {border: none; @media (min-width: 750px) {position: absolute; bottom: 5%; left: 5%; }}",".slider-button {display: none;}"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"dots","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"home_info_bar_Egxd7J":{"type":"home-info-bar","custom_css":[],"settings":{"color_scheme":"scheme-d2141ac2-8598-49c0-98f2-ce8b32fefb19","color_scheme_banner":"scheme-2a679d5d-eb90-48a8-83de-29451bd18fa9","quick_contact_title":"Quick Contact!","quick_contact_email":"<p><a href=\"mailto:orders@unlockcommerce.co\" title=\"mailto:orders@unlockcommerce.co\">orders@unlockcommerce.co<\/a><\/p>","quick_contact_phone":"<p><a href=\"tel:1-800-247-2167\" title=\"tel:1-800-247-2167\">1-800-247-2167<\/a><\/p>","customer_support_title":"Customer Support","customer_support_text":"Problem or questions about your order?","request_assistance_text":"<p><a href=\"\/pages\/contact\" title=\"Contact\">Request assistance<\/a><\/p>","banner_title":"Unlock Commerce","banner_text":"Offering competitive advantages and quality products.","banner_button_text":"<p><a href=\"\/pages\/contact\" title=\"Contact\">Find your product<\/a><\/p>"}},"collection_list_cHFgHP":{"type":"collection-list","blocks":{"featured_collection_7NwYJQ":{"type":"featured_collection","settings":{"collection":"summer-collection"}},"featured_collection_mDwfnK":{"type":"featured_collection","settings":{"collection":"winter-collection"}},"featured_collection_a6JWRc":{"type":"featured_collection","settings":{"collection":"spring-collection"}}},"block_order":["featured_collection_7NwYJQ","featured_collection_mDwfnK","featured_collection_a6JWRc"],"custom_css":[".gradient {background: rgb(var(--color-background));}"],"settings":{"title":"Collections","heading_size":"h1","collection_description":"The latest designs and trends for every room of your house","image_ratio":"square","columns_desktop":3,"color_scheme":"scheme-d1d07006-6af0-4cff-966a-880958df50d0","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":80,"padding_bottom":36}},"featured-collection":{"type":"featured-collection","custom_css":[".gradient {background: rgb(var(--color-background));}"],"settings":{"collection":"all","products_to_show":4,"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","columns_desktop":4,"enable_desktop_slider":false,"full_width":false,"show_view_all":false,"view_all_style":"solid","color_scheme":"scheme-d1d07006-6af0-4cff-966a-880958df50d0","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":true,"padding_top":56,"padding_bottom":0}},"rich_text_XhcUHk":{"type":"rich-text","blocks":{"heading_NhTQJf":{"type":"heading","settings":{"heading":"Why buy from Riderly?","heading_size":"h2"}},"text_46emhk":{"type":"text","settings":{"text":"<p>Embracing modern aesthetics and feel, we have a style that represents the gap between the past and the present, between tradition and renewal.<\/p>"}},"text_9hVABa":{"type":"text","settings":{"text":"<p>We reproduce furniture in a modern style and colour scheme. In close collaboration with the descendants of past designers, we bring back overlooked designs that truly deserve iconic status.<\/p>"}},"text_KN8NHm":{"type":"text","settings":{"text":"<p><a href=\"\/pages\/about-us\" title=\"About Us\">Read More<\/a><\/p>"}}},"block_order":["heading_NhTQJf","text_46emhk","text_9hVABa","text_KN8NHm"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-d1d07006-6af0-4cff-966a-880958df50d0","full_width":true,"padding_top":100,"padding_bottom":100}},"main_customer_deal_3cbiWa":{"type":"main-customer-deal","settings":{"padding_top":40,"padding_bottom":120,"image":"shopify:\/\/shop_images\/woman-in-the-city_925x_1e6f4cab-f7f4-4d96-a4c6-c3072fb7f152.jpg","title":"Special pricing for our most loyalcustomer, the designers.","description":"We offer special financing options online and in our stores. Eligible customers will receive additional discounts on some of our most popular items.","background_color":"#333333","button_text":"View Eligible Items","button_style":"button--secondary","url":"shopify:\/\/collections\/all","text-banner":"<h4>Want to be part of our program?<\/h4><p>Take advantage of faster checkouts and other great benefits.<\/p><p><a href=\"\/pages\/contact\" title=\"Contact\">Register Now<\/a><\/p>"}},"infinite_marquee_6aULQf":{"type":"infinite-marquee","settings":{"margin_top":0,"margin_bottom":0,"title":"ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE","height":50,"background_color":"#a32f1f","text_color":"#f6fdd9","font_size":20,"font_family":"cabin_n4"}},"main_homepage_banners_6d6ziz":{"type":"main-homepage-banners","settings":{"image_1":"shopify:\/\/shop_images\/young-hip-woman-at-carnival_925x_795bd485-0e5d-4664-85dd-1aa8abe0cab7.jpg","image_1_title":"Summer Collection","image_1_link":"shopify:\/\/collections\/summer-collection","image_1_button_text":"See More","image_2":"shopify:\/\/shop_images\/woman-outside-brownstone_925x_720f4e3d-b34d-43cc-906a-b6aa41822e48.jpg","image_2_title":"Spring Collection","image_2_link":"shopify:\/\/collections\/spring-collection","image_2_button_text":"See More","button_style":"button--secondary"}}},"order":["slideshow_4z9p77","home_info_bar_Egxd7J","collection_list_cHFgHP","featured-collection","rich_text_XhcUHk","main_customer_deal_3cbiWa","infinite_marquee_6aULQf","main_homepage_banners_6d6ziz"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_4z9p77": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fDVk4i": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SliderChairC.webp",
+            "image_overlay_opacity": 10,
+            "heading": "Modern Wood Chair",
+            "heading_size": "h2",
+            "subheading": "Get inspired with our new collection.",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-d1d07006-6af0-4cff-966a-880958df50d0"
+          }
+        },
+        "slide_ifQTjt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SliderLightningC.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Light Pendants",
+            "heading_size": "h2",
+            "subheading": "From sleek, modern offerings to more versatile designs",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-d1d07006-6af0-4cff-966a-880958df50d0"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fDVk4i",
+        "slide_ifQTjt"
+      ],
+      "custom_css": [
+        ".slideshow__controls {border: none; @media (min-width: 750px) {position: absolute; bottom: 5%; left: 5%; }}",
+        ".slider-button {display: none;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "home_info_bar_Egxd7J": {
+      "type": "home-info-bar",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-d2141ac2-8598-49c0-98f2-ce8b32fefb19",
+        "color_scheme_banner": "scheme-2a679d5d-eb90-48a8-83de-29451bd18fa9",
+        "quick_contact_title": "Quick Contact!",
+        "quick_contact_email": "<p><a href=\"mailto:orders@unlockcommerce.co\" title=\"mailto:orders@unlockcommerce.co\">orders@unlockcommerce.co</a></p>",
+        "quick_contact_phone": "<p><a href=\"tel:1-800-247-2167\" title=\"tel:1-800-247-2167\">1-800-247-2167</a></p>",
+        "customer_support_title": "Customer Support",
+        "customer_support_text": "Problem or questions about your order?",
+        "request_assistance_text": "<p><a href=\"/pages/contact\" title=\"Contact\">Request assistance</a></p>",
+        "banner_title": "Unlock Commerce",
+        "banner_text": "Offering competitive advantages and quality products.",
+        "banner_button_text": "<p><a href=\"/pages/contact\" title=\"Contact\">Find your product</a></p>"
+      }
+    },
+    "collection_list_cHFgHP": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_7NwYJQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "summer-collection"
+          }
+        },
+        "featured_collection_mDwfnK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "winter-collection"
+          }
+        },
+        "featured_collection_a6JWRc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-collection"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_7NwYJQ",
+        "featured_collection_mDwfnK",
+        "featured_collection_a6JWRc"
+      ],
+      "custom_css": [
+        ".gradient {background: rgb(var(--color-background));}"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "collection_description": "The latest designs and trends for every room of your house",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-d1d07006-6af0-4cff-966a-880958df50d0",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 36
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".gradient {background: rgb(var(--color-background));}"
+      ],
+      "settings": {
+        "collection": "all",
+        "products_to_show": 4,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-d1d07006-6af0-4cff-966a-880958df50d0",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_XhcUHk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NhTQJf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why buy from Riderly?",
+            "heading_size": "h2"
+          }
+        },
+        "text_46emhk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embracing modern aesthetics and feel, we have a style that represents the gap between the past and the present, between tradition and renewal.</p>"
+          }
+        },
+        "text_9hVABa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We reproduce furniture in a modern style and colour scheme. In close collaboration with the descendants of past designers, we bring back overlooked designs that truly deserve iconic status.</p>"
+          }
+        },
+        "text_KN8NHm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/about-us\" title=\"About Us\">Read More</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NhTQJf",
+        "text_46emhk",
+        "text_9hVABa",
+        "text_KN8NHm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-d1d07006-6af0-4cff-966a-880958df50d0",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "main_customer_deal_3cbiWa": {
+      "type": "main-customer-deal",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 120,
+        "image": "shopify://shop_images/woman-in-the-city_925x_1e6f4cab-f7f4-4d96-a4c6-c3072fb7f152.jpg",
+        "title": "Special pricing for our most loyalcustomer, the designers.",
+        "description": "We offer special financing options online and in our stores. Eligible customers will receive additional discounts on some of our most popular items.",
+        "background_color": "#333333",
+        "button_text": "View Eligible Items",
+        "button_style": "button--secondary",
+        "url": "shopify://collections/all",
+        "text-banner": "<h4>Want to be part of our program?</h4><p>Take advantage of faster checkouts and other great benefits.</p><p><a href=\"/pages/contact\" title=\"Contact\">Register Now</a></p>"
+      }
+    },
+    "ss_instafeed_2_EDCk7z": {
+      "type": "ss-instafeed-2",
+      "blocks": {
+        "slide_WfCe86": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/young-female-models-denim_925x_56b8e7e7-4c7d-41de-8d0c-22097a9ea347.jpg",
+            "url": "https://www.instagram.com/p/DMJErv3SqzV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          }
+        },
+        "slide_z7rjH3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/woman-in-the-city_925x_1e6f4cab-f7f4-4d96-a4c6-c3072fb7f152.jpg",
+            "url": "https://www.instagram.com/reel/DM0GytdOLLj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+          }
+        },
+        "slide_P8trjr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/young-hip-woman-at-carnival_925x_795bd485-0e5d-4664-85dd-1aa8abe0cab7.jpg",
+            "url": ""
+          }
+        },
+        "slide_RnnDjU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/autumn-photographer-taking-picture_925x_f197bd05-bbd1-41f8-851c-b32a963c3f83.jpg",
+            "url": ""
+          }
+        },
+        "slide_nzbdWF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/urban-fashion_925x_0ba00de2-b1f6-4823-9952-34b25684529b.jpg",
+            "url": ""
+          }
+        },
+        "slide_3tBkNq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/man-adjusts-blue-tuxedo-bowtie_925x_bd6fd262-42b3-47b7-90e7-b8f6eb103f63.jpg",
+            "url": ""
+          }
+        },
+        "slide_tgb9gU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/black-bag-over-the-shoulder_925x_01cf061d-4c80-4482-b8bb-b4866b587172.jpg",
+            "url": ""
+          }
+        },
+        "slide_biLgAy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/city-woman-fashion_925x_2x_de717ea6-f857-409d-83d3-3a949aea994e.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_WfCe86",
+        "slide_z7rjH3",
+        "slide_P8trjr",
+        "slide_RnnDjU",
+        "slide_nzbdWF",
+        "slide_3tBkNq",
+        "slide_tgb9gU",
+        "slide_biLgAy"
+      ],
+      "name": "SS - Instafeed #2",
+      "settings": {
+        "top": "Social",
+        "top_custom": false,
+        "top_font": "josefin_sans_n4",
+        "top_size": 13,
+        "top_height": 130,
+        "top_align": "center",
+        "heading": "Let’s be friends.",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 12,
+        "subheading": "<h3>Join us with #AwesomeBrandTag</h3>",
+        "subheading_custom": false,
+        "subheading_font": "josefin_sans_n4",
+        "subheading_size": 16,
+        "subheading_height": 130,
+        "subheading_align": "center",
+        "subheading_mt": 12,
+        "slider_mt": 60,
+        "slider_row": "5",
+        "slider_row_mobile": "2",
+        "slider_gap": 20,
+        "slider_gap_mobile": 32,
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": false,
+        "hide_nav_mobile": false,
+        "image_radius": 0,
+        "top_color": "#ff6600",
+        "heading_color": "#333333",
+        "subheading_color": "#696969",
+        "nav_btn_bg": "#484848",
+        "nav_btn_hover_bg": "#a32f1f",
+        "nav_border": "#fdfbf7",
+        "nav_border_hover": "#a32f1f",
+        "nav_icon": "#fdfbf7",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#fdfbf7",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "infinite_marquee_6aULQf": {
+      "type": "infinite-marquee",
+      "disabled": true,
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "title": "ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE",
+        "height": 50,
+        "background_color": "#a32f1f",
+        "text_color": "#f6fdd9",
+        "font_size": 20,
+        "font_family": "cabin_n4"
+      }
+    },
+    "main_homepage_banners_6d6ziz": {
+      "type": "main-homepage-banners",
+      "settings": {
+        "image_1": "shopify://shop_images/young-hip-woman-at-carnival_925x_795bd485-0e5d-4664-85dd-1aa8abe0cab7.jpg",
+        "image_1_title": "Summer Collection",
+        "image_1_link": "shopify://collections/summer-collection",
+        "image_1_button_text": "See More",
+        "image_2": "shopify://shop_images/woman-outside-brownstone_925x_720f4e3d-b34d-43cc-906a-b6aa41822e48.jpg",
+        "image_2_title": "Spring Collection",
+        "image_2_link": "shopify://collections/spring-collection",
+        "image_2_button_text": "See More",
+        "button_style": "button--secondary"
+      }
+    },
+    "ss_back_to_top_button_z7ymc6": {
+      "type": "ss-back-to-top-button",
+      "name": "SS - Back to top button",
+      "settings": {
+        "hide_on_mobile": false,
+        "show_when_precent_of_page": 45,
+        "pos": "right",
+        "bg_color": "#f4f2f2",
+        "border_color": "#cec5c5",
+        "arrow_color": "#333333",
+        "button_size": 54,
+        "arrow_size": 30,
+        "horizontal_dst_to_edge": 20,
+        "vertical_dst_to_edge": 20
+      }
+    }
+  },
+  "order": [
+    "slideshow_4z9p77",
+    "home_info_bar_Egxd7J",
+    "collection_list_cHFgHP",
+    "featured-collection",
+    "rich_text_XhcUHk",
+    "main_customer_deal_3cbiWa",
+    "ss_instafeed_2_EDCk7z",
+    "infinite_marquee_6aULQf",
+    "main_homepage_banners_6d6ziz",
+    "ss_back_to_top_button_z7ymc6"
+  ]
+}
