@@ -263,6 +263,20 @@
             "image": "shopify://shop_images/man-adjusts-blue-tuxedo-bowtie_925x_bd6fd262-42b3-47b7-90e7-b8f6eb103f63.jpg",
             "url": ""
           }
+        },
+        "slide_tgb9gU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/black-bag-over-the-shoulder_925x_01cf061d-4c80-4482-b8bb-b4866b587172.jpg",
+            "url": ""
+          }
+        },
+        "slide_biLgAy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/city-woman-fashion_925x_2x_de717ea6-f857-409d-83d3-3a949aea994e.jpg",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -271,7 +285,9 @@
         "slide_P8trjr",
         "slide_RnnDjU",
         "slide_nzbdWF",
-        "slide_3tBkNq"
+        "slide_3tBkNq",
+        "slide_tgb9gU",
+        "slide_biLgAy"
       ],
       "name": "SS - Instafeed #2",
       "settings": {
