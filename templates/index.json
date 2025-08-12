@@ -349,6 +349,7 @@
     },
     "infinite_marquee_6aULQf": {
       "type": "infinite-marquee",
+      "disabled": true,
       "settings": {
         "margin_top": 0,
         "margin_bottom": 0,
