@@ -219,49 +219,6 @@
         "text-banner": "<h4>Want to be part of our program?</h4><p>Take advantage of faster checkouts and other great benefits.</p><p><a href=\"/pages/contact\" title=\"Contact\">Register Now</a></p>"
       }
     },
-    "infinite_marquee_6aULQf": {
-      "type": "infinite-marquee",
-      "settings": {
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "title": "ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE",
-        "height": 50,
-        "background_color": "#a32f1f",
-        "text_color": "#f6fdd9",
-        "font_size": 20,
-        "font_family": "cabin_n4"
-      }
-    },
-    "main_homepage_banners_6d6ziz": {
-      "type": "main-homepage-banners",
-      "settings": {
-        "image_1": "shopify://shop_images/young-hip-woman-at-carnival_925x_795bd485-0e5d-4664-85dd-1aa8abe0cab7.jpg",
-        "image_1_title": "Summer Collection",
-        "image_1_link": "shopify://collections/summer-collection",
-        "image_1_button_text": "See More",
-        "image_2": "shopify://shop_images/woman-outside-brownstone_925x_720f4e3d-b34d-43cc-906a-b6aa41822e48.jpg",
-        "image_2_title": "Spring Collection",
-        "image_2_link": "shopify://collections/spring-collection",
-        "image_2_button_text": "See More",
-        "button_style": "button--secondary"
-      }
-    },
-    "ss_back_to_top_button_z7ymc6": {
-      "type": "ss-back-to-top-button",
-      "name": "SS - Back to top button",
-      "settings": {
-        "hide_on_mobile": false,
-        "show_when_precent_of_page": 45,
-        "pos": "right",
-        "bg_color": "#f4f2f2",
-        "border_color": "#cec5c5",
-        "arrow_color": "#333333",
-        "button_size": 54,
-        "arrow_size": 30,
-        "horizontal_dst_to_edge": 20,
-        "vertical_dst_to_edge": 20
-      }
-    },
     "ss_instafeed_2_EDCk7z": {
       "type": "ss-instafeed-2",
       "blocks": {
@@ -351,7 +308,7 @@
         "hide_nav_mobile": false,
         "image_radius": 0,
         "top_color": "#e69e6c",
-        "heading_color": "#746661",
+        "heading_color": "#333333",
         "subheading_color": "#aba49d",
         "nav_btn_bg": "#FFFFFF",
         "nav_btn_hover_bg": "#e69e6c",
@@ -359,7 +316,7 @@
         "nav_border_hover": "#e69e6c",
         "nav_icon": "#e69e6c",
         "nav_hover_icon": "#FFFFFF",
-        "background_color": "#FFFFFF",
+        "background_color": "#fdfbf7",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -373,6 +330,49 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "infinite_marquee_6aULQf": {
+      "type": "infinite-marquee",
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "title": "ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE | ON SALE",
+        "height": 50,
+        "background_color": "#a32f1f",
+        "text_color": "#f6fdd9",
+        "font_size": 20,
+        "font_family": "cabin_n4"
+      }
+    },
+    "main_homepage_banners_6d6ziz": {
+      "type": "main-homepage-banners",
+      "settings": {
+        "image_1": "shopify://shop_images/young-hip-woman-at-carnival_925x_795bd485-0e5d-4664-85dd-1aa8abe0cab7.jpg",
+        "image_1_title": "Summer Collection",
+        "image_1_link": "shopify://collections/summer-collection",
+        "image_1_button_text": "See More",
+        "image_2": "shopify://shop_images/woman-outside-brownstone_925x_720f4e3d-b34d-43cc-906a-b6aa41822e48.jpg",
+        "image_2_title": "Spring Collection",
+        "image_2_link": "shopify://collections/spring-collection",
+        "image_2_button_text": "See More",
+        "button_style": "button--secondary"
+      }
+    },
+    "ss_back_to_top_button_z7ymc6": {
+      "type": "ss-back-to-top-button",
+      "name": "SS - Back to top button",
+      "settings": {
+        "hide_on_mobile": false,
+        "show_when_precent_of_page": 45,
+        "pos": "right",
+        "bg_color": "#f4f2f2",
+        "border_color": "#cec5c5",
+        "arrow_color": "#333333",
+        "button_size": 54,
+        "arrow_size": 30,
+        "horizontal_dst_to_edge": 20,
+        "vertical_dst_to_edge": 20
+      }
     }
   },
   "order": [
@@ -382,9 +382,9 @@
     "featured-collection",
     "rich_text_XhcUHk",
     "main_customer_deal_3cbiWa",
+    "ss_instafeed_2_EDCk7z",
     "infinite_marquee_6aULQf",
     "main_homepage_banners_6d6ziz",
-    "ss_back_to_top_button_z7ymc6",
-    "ss_instafeed_2_EDCk7z"
+    "ss_back_to_top_button_z7ymc6"
   ]
 }
