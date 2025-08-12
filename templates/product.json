@@ -108,13 +108,13 @@
     "1755023913f8007170": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_DDhUda": {
+        "judge_me_reviews_review_widget_EHaPq8": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_DDhUda"
+        "judge_me_reviews_review_widget_EHaPq8"
       ],
       "settings": {
         "include_margins": true
