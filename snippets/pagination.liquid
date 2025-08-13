@@ -16,7 +16,7 @@
 {%- if paginate.parts.size > 0 -%}
   <div class="pagination-wrapper" data-page="{{ paginate.current_page }}">
     <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
-      <ul class="pagination__list list-unstyled" role="list">
+      <ul class="pagination__list list-unstyled {% if infinite_enabled %} test {% endif %} " role="list">
         {%- if paginate.previous -%}
           <li>
             <a
@@ -60,7 +60,7 @@
         {%- endfor -%}
 
         {%- if paginate.next -%}
-          <li>
+          <li class="infinite_next">
             <a
               href="{{ paginate.next.url }}{{ anchor }}"
               class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce"

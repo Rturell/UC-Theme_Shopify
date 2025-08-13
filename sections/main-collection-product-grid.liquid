@@ -1,6 +1,9 @@
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
+{% if section.settings.enable_infinite_scroll %}
+  {{ 'ajaxinate.min.js' | asset_url | script_tag }}
+{% endif %}
 
 {% if section.settings.image_shape == 'blob' %}
   {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
@@ -183,7 +186,7 @@
             </ul>
 
             {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
+              {% render 'pagination', paginate: paginate, anchor: '', infinite_enabled: section.settings.enable_infinite_scroll %}
             {%- endif -%}
           </div>
         {%- endif -%}
@@ -194,6 +197,15 @@
     {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
 </div>
+
+{% if section.settings.enable_infinite_scroll %}
+<script>
+  const endlessCollection = new Ajaxinate({
+  container: '#product-grid',
+  pagination: '.infinite_next',
+  });
+</script>
+{% endif %}
 
 {% schema %}
 {
@@ -404,6 +416,16 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }, 
+     {
+      "type": "header",
+      "content": "Infinite Scroll"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_infinite_scroll",
+      "default": false,
+      "label": "Enable infinite scroll"
     }
   ]
 }

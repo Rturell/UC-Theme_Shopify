@@ -93,6 +93,12 @@ class FacetFiltersForm extends HTMLElement {
   }
 
   static renderProductCount(html) {
+
+    const endlessCollection = new Ajaxinate({
+      container: '#product-grid',
+      pagination: '.infinite_next',
+    });
+
     const count = new DOMParser().parseFromString(html, 'text/html').getElementById('ProductCount').innerHTML;
     const container = document.getElementById('ProductCount');
     const containerDesktop = document.getElementById('ProductCountDesktop');
@@ -106,7 +112,10 @@ class FacetFiltersForm extends HTMLElement {
       '.facets-container .loading__spinner, facet-filters-form .loading__spinner'
     );
     loadingSpinners.forEach((spinner) => spinner.classList.add('hidden'));
+    
   }
+
+  
 
   static renderFilters(html, event) {
     const parsedHTML = new DOMParser().parseFromString(html, 'text/html');
