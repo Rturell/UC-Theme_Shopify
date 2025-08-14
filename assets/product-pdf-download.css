@@ -1,0 +1,23 @@
+.product__pdf-download {
+  padding-top: 3rem;
+}
+
+.product-datasheet__title {
+  margin-bottom: 4rem;
+}
+
+.product-datasheet__item {
+  margin-bottom: 1rem;
+}
+
+.product-datasheet__btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  color: var(--color-foreground);
+  text-decoration: none;
+}
+
+.product-datasheet__btn:hover {
+  text-decoration: underline;
+}

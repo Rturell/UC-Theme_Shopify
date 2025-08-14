@@ -1,0 +1,38 @@
+{%- comment -%}
+    This snippet is used in the product page to display downloadable PDF files.
+    It supports both single file and list of files.
+    The metafield should be set up in the Shopify admin under the product's metafields.
+{%- endcomment -%}
+
+{{ 'product-pdf-download.css' | asset_url | stylesheet_tag }}
+
+{%- assign mf = product.metafields.custom.pdf_download -%}
+{%- if mf != blank -%}
+  {%- if mf.type contains 'list' -%}
+    {%- assign files = mf.value -%}
+    <div class="product-datasheet">
+
+        <h3 class="product-datasheet__title">Download Specifications</h3>
+
+      {%- for file in files -%}
+        {%- assign file_name = file.url | split: '/' | last | split: '?' | first -%}
+        <div class="product-datasheet__item">
+            <a class="product-datasheet__btn" href="{{ file.url }}" target="_blank" rel="noopener" download>
+                <svg width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-type-pdf"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" /><path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" /><path d="M17 18h2" /><path d="M20 15h-3v6" /><path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" /></svg>
+                <span>{{ file_name }}</span>
+            </a>
+        </div>
+
+      {%- endfor -%}
+    </div>
+  {%- else -%}
+    {%- assign single_file = mf.value -%}
+    <div class="product-datasheet">
+      <a class="product-datasheet__btn" href="{{ single_file.url }}" target="_blank" rel="noopener" download>
+        <svg width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-type-pdf"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" /><path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" /><path d="M17 18h2" /><path d="M20 15h-3v6" /><path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" /></svg>
+        <span>{{ file_name }}</span>
+      </a>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+
